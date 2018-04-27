@@ -1,0 +1,61 @@
+html{
+	font-family: "微软雅黑";
+}
+
+a{
+	text-decoration: none;
+}
+.row{
+	margin: 100px auto;
+}
+.row>nav{
+	width: 50%;
+	height: 50px;
+	margin: 0 auto;
+	position:relative;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bold;
+	
+}
+.line{
+	height: 3px;
+	position: absolute;
+		background-color: #3C3C3C;
+		
+}
+.left{
+	width: 0px;
+	bottom: 24px;
+	left: 50%;
+	transition: all .5s;
+}
+.right{
+	width: 0px;
+	bottom: 24px;
+	right: 50%;
+	transition: all .5s;
+}
+.button{
+	width: 100px;
+	height: 40px;
+	margin: 0 auto;
+		line-height: 40px;
+		text-align: center;
+			background-color: #C3C3C3;
+			border: 1px solid #c3c3c3;
+			border-radius: 5px;
+			transition: all .3s;
+}
+.button>a{
+	display: block;
+	color: #3c3c3c;
+	font-size: 14px;
+	transition: all .2s;	
+}
+.button:active{
+	background-color: #3C3C3C;
+}
+.button:active>a{
+	color: #FFF;
+}
